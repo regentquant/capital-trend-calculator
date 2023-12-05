@@ -4,6 +4,8 @@ FIRST TIME SHARING CODE TO OTHERS. WHEN WRITING CODE, DIDN'T REALIZE OTHERS WILL
 
 Code written by @Curry Yao, CEO of Regentquant, CEO of Century KY.
 
+official website: https://www.regentquant.com/
+
 The calculator is used to measure amount of money flowing in and out of a given asset (stock/ETF).
 
 Use second interval to maximize precision. If tick data is available, then use tick data.
