@@ -6,6 +6,8 @@ The calculator is used to measure amount of money flowing in and out of a given 
 
 Use second interval to maximize precision. If tick data is available, then use tick data.
 
+🚨 ONLY USE macromain() and single_day() functions!!!
+
 Main Idea:
 1. Downloading data from polygon.
 2. Cleaning data. If no trade happens in a given time interval, api provider skips the data. So we have to clean the data. Check code if you want to know what I mean. I apologize for not writing an user friendly code.
