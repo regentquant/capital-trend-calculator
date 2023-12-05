@@ -325,7 +325,7 @@ AAPL'''.split('\n')
 
 
         # Using ThreadPoolExecutor to process multiple dates in parallel
-        with ThreadPoolExecutor(max_workers=50) as executor:
+        with ThreadPoolExecutor(max_workers=10) as executor:
             futures = [executor.submit(downloading_json, ticker, date) for date in dates]
             for future in futures:
                 future.result()  # Handling the returned result or exceptions if any This line is optional, it's for handling the returned result or exceptions if any
@@ -334,7 +334,7 @@ AAPL'''.split('\n')
 
         # Collecting results from ThreadPoolExecutor
         results = []
-        with ThreadPoolExecutor(max_workers=13) as executor:
+        with ThreadPoolExecutor(max_workers=10) as executor:
             futures = [executor.submit(main, f"{date}-{ticker}.json", ticker) for date in dates]
             for future in futures:
                 date, result = future.result()  # Collecting the result
