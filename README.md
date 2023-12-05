@@ -1,5 +1,7 @@
 # capital-trend-calculator
 
+FIRST TIME SHARING CODE TO OTHERS. WHEN WRITING CODE, DIDN'T REALIZE OTHERS WILL SEE IT. SO DIDN'T ADD COMMENTS TO ALL IMPORTANT PARTS. YOU DON'T NECESSARILY NEED TO UNDERSTAND MY CODE TO USE THE CODE. MY APOLOGIES. 🫶
+
 Code written by @Curry Yao, CEO of Regentquant, CEO of Century KY.
 
 The calculator is used to measure amount of money flowing in and out of a given asset (stock/ETF).
