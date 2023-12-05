@@ -17,7 +17,8 @@ Main Idea:
 2. Cleaning data. If no trade happens in a given time interval, api provider skips the data. So we have to clean the data. Check code if you want to know what I mean. I apologize for not writing an user friendly code.
 3. Calculating. If price goes up, then accum += price * volume * 1; if price goes down, then accum -= price * volume * -1; if price remains same, then accum += 0.
 
+Change max_worker depending on your computing power.
+
+
 Hope you find this calculator useful.
 We also maintain over 200 assets' capital trend update. Visit: https://www.regentquant.com/capital-trend-dashboard.html
-
-Change max_worker depending on your computing power.
