@@ -13,3 +13,5 @@ Main Idea:
 
 Hope you find this calculator useful.
 We also maintain over 200 assets' capital trend update. Visit: https://www.regentquant.com/capital-trend-dashboard.html
+
+Change max_worker depending on your computing power.
