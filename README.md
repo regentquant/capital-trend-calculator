@@ -7,3 +7,5 @@ Version 2.0
 Simpler and easier to use.
 
 Written with love by Curry Yao
+
+Curry Yao, CEO and Engineer at Regentquant.com
